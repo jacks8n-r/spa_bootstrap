@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+*{border: 1px solid #FF0000;}
+
+body{
+    font-family: Inter;
+    font-size: 16px;
+}
+.color-header{background: #A3A656;}
+.opciones-header{
+    height: 70px;
+    padding-left: 70px;
+    text-transform: uppercase;
+}
+.espacio-li{margin-right: 50px;}
