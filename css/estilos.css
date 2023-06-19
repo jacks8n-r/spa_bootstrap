@@ -2,6 +2,10 @@
     font-family: Inter;
     src: url(../fonts/Inter-Regular.ttf);
 }
+@font-face {
+    font-family: Romanesco;
+    src: url(../fonts/Romanesco-Regular.ttf);
+}
 
 *{border: 1px solid #FF0000;}
 
@@ -13,6 +17,27 @@ body{
 .opciones-header{
     height: 70px;
     padding-left: 70px;
-    text-transform: uppercase;
 }
-.espacio-li{margin-right: 50px;}
+.texto-micuenta{font-size: 14px;}
+
+/************ ESTILOS DE SECCION ****************/
+.texto-main{
+    margin-top: 120px;
+    margin-left: 200px;
+}
+.texto-main-spa{
+    font-family: Romanesco;
+    font-size: 96px;
+}
+.texto-main-desc{
+    font-size: 32px;
+}
+nav ul li:hover{
+    color: #FFFF00;
+}
+
+
+.cita-codigo{
+    height: 100px;
+    background: #F2F6F6;
+}
