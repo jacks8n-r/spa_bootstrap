@@ -41,3 +41,26 @@ nav ul li:hover{
     height: 100px;
     background: #F2F6F6;
 }
+
+.alto-cards-masajes{height: 620px;}
+.ancho-max-tarjetas{max-width: 350px;}
+.padding-tarjetas-masajes{padding-top: 100px;}
+.color-tarjetas-masajes{background: #A3A656;}
+.t2{font-size: 25px;}
+.btn-reservar{
+    font-size: 12px;
+    background: #A3A656;
+}
+.btn-reservar:hover{background: #384001;}
+.gap-tarjetas{gap: 134px;}
+
+.alto-cards-suscripciones{
+    height: 770px;
+    background: #F2F6F6;
+}
+
+.dim-circulo{
+    border: 11px solid #384001;
+    width: 233px;
+    height: 233px;
+}
