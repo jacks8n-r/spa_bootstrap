@@ -1,1 +1,1 @@
-# SPA - Jodos web page using Bootstrap
+# SPA - Todos web page using Bootstrap
