@@ -7,7 +7,7 @@
     src: url(../fonts/Romanesco-Regular.ttf);
 }
 
-*{border: 1px solid #FF0000;}
+/**{border: 1px solid #FF0000;}*/
 
 body{
     font-family: Inter;
@@ -41,6 +41,7 @@ nav ul li:hover{
     height: 100px;
     background: #F2F6F6;
 }
+.color-codigo::placeholder{color: #9E9A9A;}
 
 .alto-cards-masajes{height: 620px;}
 .ancho-max-tarjetas{max-width: 350px;}
@@ -48,7 +49,7 @@ nav ul li:hover{
 .color-tarjetas-masajes{background: #A3A656;}
 .t2{font-size: 25px;}
 .btn-reservar{
-    font-size: 12px;
+    font-size: 14px;
     background: #A3A656;
 }
 .btn-reservar:hover{background: #384001;}
@@ -58,9 +59,27 @@ nav ul li:hover{
     height: 770px;
     background: #F2F6F6;
 }
+.fondo-tarjetas-susc{background: #F2F6F6;}
 
 .dim-circulo{
     border: 11px solid #384001;
     width: 233px;
     height: 233px;
 }
+.texto-nombre-susc{font-size: 32px;}
+.ancho-tarjetas-susc{max-width: 280px;}
+.gap-tarjetas-susc{gap: 130px;}
+
+/*FALTA CENTRAR BIEN LAS LISTAS*/
+
+
+/************ ESTILOS DEL FOOTER ****************/
+.diseño-footer{
+    height: 97px;
+    background: #384001;
+}
+.opciones-footer{
+    padding-left: 70px;
+    color: #A3A656;
+}
+.color-text-rs{color: #A3A656;}
